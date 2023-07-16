@@ -11,11 +11,13 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
+  data () {
+    return {
+
+    }
+  },
   components: {
     HelloWorld
-  },
-  methods: {
-    
   }
 }
 </script>
